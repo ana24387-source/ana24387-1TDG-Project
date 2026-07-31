@@ -16,6 +16,10 @@ ul li a {
 ul li a:hover {
   background-color: #661616;
 }
-img{
-    width: 100%;
+.Aboutcontent img{
+    width: 20%;
+}
+
+.Infocontent img{
+  width: 50%;
 }
