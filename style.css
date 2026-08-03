@@ -16,10 +16,52 @@ ul li a {
 ul li a:hover {
   background-color: #661616;
 }
-.Aboutcontent img{
+.Aboutcontent {
     width: 20%;
 }
 
-.Infocontent img{
-  width: 50%;
+.infocontent1 img {
+  width: 30%;
+}
+
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.infocontent1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  padding: 2%;
+}
+
+.eventscontent {
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+}
+
+.eventscontent2 img{
+width: 30%;
+}
+.eventscontent2 {
+  display: flex;
+  flex-direction: row;
+ }
+
+ .eventscontent3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.eventscontent3 img{
+
+  width: 30%;
 }
