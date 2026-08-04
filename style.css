@@ -16,8 +16,9 @@ ul li a {
 ul li a:hover {
   background-color: #661616;
 }
-.aboutcontent img{
-    width: 100%;
+
+.aboutcontent img {
+  width: 100%;
 }
 
 .infocontent1 img {
@@ -25,11 +26,11 @@ ul li a:hover {
 }
 
 
-h1{
+h1 {
   text-align: center;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
@@ -38,40 +39,57 @@ h2{
   flex-direction: row;
 }
 
-.text{
+.text {
   padding: 2%;
 }
 
 .eventscontent {
   display: flex;
   flex-direction: row;
- justify-content: center;
+  justify-content: center;
 }
 
-.eventscontent2 img{
-width: 30%;
+.eventscontent2 img {
+  width: 30%;
 }
+
 .eventscontent2 {
   display: flex;
   flex-direction: row;
- }
+}
 
- .eventscontent3 {
+.eventscontent3 {
   display: flex;
   flex-direction: row;
 }
 
-.eventscontent3 img{
+.eventscontent3 img {
 
   width: 30%;
 }
 
 .infocontent2 {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
 }
 
-.infocontent2 img{
+.infocontent2 img {
   width: 10%;
+}
+
+.compcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.photosone{
+  display: flex;
+  flex-direction: row;
+}
+
+.phototwo{
+  display: flex;
+  flex-direction: row;
 }
