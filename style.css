@@ -16,8 +16,8 @@ ul li a {
 ul li a:hover {
   background-color: #661616;
 }
-.Aboutcontent {
-    width: 20%;
+.aboutcontent img{
+    width: 100%;
 }
 
 .infocontent1 img {
@@ -64,4 +64,14 @@ width: 30%;
 .eventscontent3 img{
 
   width: 30%;
+}
+
+.infocontent2 {
+display: flex;
+flex-direction: row;
+
+}
+
+.infocontent2 img{
+  width: 10%;
 }
