@@ -87,9 +87,37 @@ h2 {
 .photosone{
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 }
+
+.photosone img{
+  width: 20%;
+}
+
+.awardtext {
+  display: flex;
+  flex-direction: row;
+}
+
 
 .phototwo{
   display: flex;
   flex-direction: row;
+}
+
+.phototwo img{
+width: 20%;
+}
+
+.winners img{
+
+  width: 80%
+}
+
+.winners {
+
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
