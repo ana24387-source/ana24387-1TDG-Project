@@ -80,47 +80,6 @@ h2 {
   width: 10%;
 }
 
-.compcontent {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.photosone{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
-.award img{
-  width: 20%;
-}
-
-.awardtext {
-  display: flex;
-  flex-direction: row;
-}
-
-
-.photostwo{
-  display: flex;
-  flex-direction: row;
-}
-
-
-.winners img{
-
-  width: 50%
-}
-
-.winners {
-
-  display: flex;
-  flex-direction:column;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
 .navbar img{
   width: 10%
 }
@@ -129,4 +88,25 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+.big-container {
+  display: flex;
+  flex-direction: row;
+}
+.awards-container {
+  display: flex;
+  flex-direction: column;
+}
+.awards-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.awards img {
+  width: 90%;
+}
+
+.past-winners img {
+  width: 80%;
 }
