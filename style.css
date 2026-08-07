@@ -1,19 +1,21 @@
-ul {
+.navlinks ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #333333;
   display: flex;
+ 
 }
 
-ul li a {
-  display: block;
+.navbar ul li a {
+  display: flex;
+  flex-direction: row;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul li a:hover {
+.navlinks ul li a:hover {
   background-color: #661616;
 }
 
@@ -90,7 +92,7 @@ h2 {
   justify-content: flex-start;
 }
 
-.photosone img{
+.award img{
   width: 20%;
 }
 
@@ -100,18 +102,15 @@ h2 {
 }
 
 
-.phototwo{
+.photostwo{
   display: flex;
   flex-direction: row;
 }
 
-.phototwo img{
-width: 20%;
-}
 
 .winners img{
 
-  width: 80%
+  width: 50%
 }
 
 .winners {
@@ -120,4 +119,14 @@ width: 20%;
   flex-direction:column;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+.navbar img{
+  width: 10%
+}
+
+.navcontent{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
