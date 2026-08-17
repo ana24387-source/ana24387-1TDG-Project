@@ -83,15 +83,20 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around; 
+ 
   
 }
 
 .eventscontent h2{
   padding: 15px;
+
   
 }
 .eventscontent2 img {
   width: 30%;
+  border-style: solid;
+  border-width: 15%;
+  border-color: #46008b;
 }
 
 .eventscontent2 {
@@ -108,6 +113,9 @@ h2 {
 .eventscontent3 img {
 
   width: 30%;
+  border-style: solid;
+  border-width: 10%;
+  border-color: #46008b;
 }
 
 .infocontent2 {
@@ -181,3 +189,4 @@ p{font-family: sans-serif;
 .compheading h2{
   margin: 0% 10%;
 }
+
