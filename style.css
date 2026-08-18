@@ -148,11 +148,12 @@ h2 {
 
 
 .awards img {
-  width: 90%;
+  width: 95%;
 }
 
 .past-winners img {
-  width: 85%;
+  width: 90%;
+  padding-left: 5%;
 }
 
 .past-winners{
