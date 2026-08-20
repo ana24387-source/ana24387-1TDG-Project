@@ -137,13 +137,13 @@ h2 {
 .awards-container {
   display: flex;
   flex-direction: column;
-  padding-left: 2%;
+  padding-left: 3%;
   
 }
 .awards-row {
   display: flex;
   flex-direction: row;
-  padding-left: 2%;
+  padding-left: 3%;
 }
 
 
@@ -157,7 +157,7 @@ h2 {
 }
 
 .past-winners{
-  padding-left: 15%;
+  padding-left: 13%;
   
 }
 
@@ -172,6 +172,7 @@ h3{
 
 p{font-family: sans-serif;
   color: #240046;
+ 
 }
 
 .indexheading h2{
@@ -191,3 +192,10 @@ p{font-family: sans-serif;
   margin: 0% 10%;
 }
 
+.eventscontent2 p{
+  font-size: large;
+}
+
+.eventscontent3 p{
+  font-size: large;
+}
