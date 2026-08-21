@@ -5,6 +5,8 @@
   background-color: #46008b;
   display: flex;
   font-family: sans-serif;
+  font-size: larger;
+  
   
  
 }
@@ -26,10 +28,10 @@
   width: 10.5%;
   height:auto
 }
-
-.navbar h2{
-  color: #ffffff;
+.navcontent h3{
+  color: #240046;
 }
+
 
 .navcontent{
   display: flex;
@@ -172,6 +174,7 @@ h3{
 
 p{font-family: sans-serif;
   color: #240046;
+  font-size: large;
  
 }
 
@@ -192,10 +195,15 @@ p{font-family: sans-serif;
   margin: 0% 10%;
 }
 
-.eventscontent2 p{
-  font-size: large;
+
+
+.past-winners p{
+text-align:center;
 }
 
-.eventscontent3 p{
-  font-size: large;
+.aboutcontent p{
+  text-align: center;
+}
+.awards p{
+  text-align: center;
 }
